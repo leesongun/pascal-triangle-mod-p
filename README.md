@@ -1,2 +1,3 @@
 # pascal-triangle-mod-p
-it shows pascal's triangle mod p
+it visualizes pascal's triangle mod p
+using primitive root
