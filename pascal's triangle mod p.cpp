@@ -1,7 +1,9 @@
-// pascal's triangle mod p.cpp : ÄÜ¼Ö ÀÀ¿ë ÇÁ·Î±×·¥¿¡ ´ëÇÑ ÁøÀÔÁ¡À» Á¤ÀÇÇÕ´Ï´Ù.
+// pascal's triangle mod p.cpp : ï¿½Ü¼ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Î±×·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½.
 //
 
-#include "stdafx.h"
+#include <stdio.h>
+#include <math.h>
+#include <malloc.h>
 #define PI 3.141592653589793238462643383
 unsigned char phase2color(double phase)
 {
@@ -54,7 +56,7 @@ int main()
 					isfirst = true;
 				}
 			}
-			x = ptr - color;//¼ÒÀÎ¼ö °³¼ö
+			x = ptr - color;//ï¿½ï¿½ï¿½Î¼ï¿½ ï¿½ï¿½ï¿½ï¿½
 			*color = 0;
 			for (;;)
 			{
